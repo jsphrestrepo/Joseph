@@ -15,13 +15,13 @@ body{
  
 h1{
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
 }
  
 a:link, a:visited {
   background-color: #dcdcdc;
   color: black;
-  padding: 17px 28px;
+  padding: 14px 25px;
   text-align: center;
   text-decoration:none;
   display: inline-block;
@@ -31,18 +31,18 @@ a:hover, a:active {
   background-color:rgb(175, 238, 232);
 }
  
-#row1{
+#row1A{
   width: 90%;
   margin-top: 25px;
   margin-left: 70px;
   margin-bottom: 25px;
-  }
+}
  
-#row2{
+#row2A{
   width: 100%;
 }
  
-#image1{
+#image1A{
   width: 45%;
   display: inline-block;
   vertical-align: top;
@@ -52,18 +52,18 @@ a:hover, a:active {
   background-color:#dcdcdc;
 }
  
-#projectimg{
+#projectimgA{
   margin:25px ;
   vertical-align: top;
 }
  
-#image1text{
+#image1textA{
   vertical-align: top;
   margin: 25px;
   font-size: 20px;
 }
  
-#image2{
+#image2A{
   width: 45%;
   display: inline-block;
   vertical-align: top;
@@ -73,24 +73,24 @@ a:hover, a:active {
   background-color:#dcdcdc;
 }
  
-#projectimg2{
+#projectimg2A{
   margin:25px ;
   vertical-align: top;
 }
  
-#image2text{
+#image2textA{
   vertical-align: top;
   margin: 25px;
   font-size: 20px;
 }
  
-#row3{
+#row3A{
 width: 100%;
 }
  
  
  
-#projectimg3{
+#projectimg3A{
 margin-top: 45px;
 margin-left: 45px;
 margin-bottom: 45px;
@@ -98,7 +98,7 @@ width: 45%;
 float: left;
 }
  
-#image3text{
+#image3textA{
   float: right;
   padding: 5px;
   border: black solid ;
@@ -108,3 +108,65 @@ float: left;
   margin-right: 15px;
   margin-left: 40px;
   }
+
+  #row1E{
+    width: 90%;
+    padding: 5px;
+    border: black solid ;
+    background-color:rgb(175, 238, 232);
+    margin: 40px;
+    margin-left: 55px;
+  }
+   
+    #image1E{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    }
+   
+    #image2E{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    }
+   
+    #photoshopimgE{
+      margin:25px ;
+      vertical-align: top;
+    }
+   
+    #projectmanagementimgE{
+      margin:25px;
+      vertical-align:top;
+      
+    }
+   
+    #img1textE{
+      vertical-align: top;
+      margin: 25px;
+      font-size: 20px;
+    }
+   
+    #img2textE{
+      vertical-align: top;
+      margin: 25px;
+      font-size: 20px;
+    }
+   
+    #row2E{
+      vertical-align: top;
+      padding: 5px;
+      border: black solid ;
+      background-color: rgb(175, 238, 232);
+      margin: 55px;
+    }
+   
+    #systemsimgE{
+      margin: 25px;
+    }
+   
+    #systemstextE{
+      vertical-align: top;
+      font-size: 20px;
+    }
+  

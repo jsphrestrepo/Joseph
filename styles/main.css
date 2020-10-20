@@ -64,7 +64,7 @@ a:hover, a:active {
 }
  
 #traeyoungtext{
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px;
   border:black solid ;
   background-color: #DCDCDC;
@@ -86,7 +86,7 @@ a:hover, a:active {
 #travisscotttext{
   margin-right: 25px;
   margin-left: 25px;
-  font-size: 18px;
+  font-size: 20px;
   padding: 20px;
   border: black solid ;
   background-color: #DCDCDC;
@@ -101,5 +101,5 @@ margin-left: 2px;
  
 #row3{
   width: 100%;
-  margin-top: 350px;
+  margin-top: 375px;
 }
