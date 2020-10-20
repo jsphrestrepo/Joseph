@@ -1,0 +1,110 @@
+body{
+  font-family: 'Dosis', sans-serif;
+}
+ 
+body{
+  background-color: #f0ead6; 
+  margin:0;
+}
+ 
+#tealStrip{
+  background-color: rgb(175, 238, 232);
+  margin: 0%;
+  width: 100%;
+}
+ 
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+ 
+a:link, a:visited {
+  background-color: #dcdcdc;
+  color: black;
+  padding: 17px 28px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+}
+ 
+a:hover, a:active {
+  background-color:rgb(175, 238, 232);
+}
+ 
+#row1{
+  width: 90%;
+  margin-top: 25px;
+  margin-left: 70px;
+  margin-bottom: 25px;
+  }
+ 
+#row2{
+  width: 100%;
+}
+ 
+#image1{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 45px;
+  padding: 5px;
+  border: black solid ;
+  background-color:#dcdcdc;
+}
+ 
+#projectimg{
+  margin:25px ;
+  vertical-align: top;
+}
+ 
+#image1text{
+  vertical-align: top;
+  margin: 25px;
+  font-size: 20px;
+}
+ 
+#image2{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 45px;
+  padding: 5px;
+  border: black solid ;
+  background-color:#dcdcdc;
+}
+ 
+#projectimg2{
+  margin:25px ;
+  vertical-align: top;
+}
+ 
+#image2text{
+  vertical-align: top;
+  margin: 25px;
+  font-size: 20px;
+}
+ 
+#row3{
+width: 100%;
+}
+ 
+ 
+ 
+#projectimg3{
+margin-top: 45px;
+margin-left: 45px;
+margin-bottom: 45px;
+width: 45%;
+float: left;
+}
+ 
+#image3text{
+  float: right;
+  padding: 5px;
+  border: black solid ;
+  background-color:#dcdcdc;
+  width: 45%;
+  margin-top: 45px;
+  margin-right: 15px;
+  margin-left: 40px;
+  }

@@ -1,0 +1,105 @@
+body{
+  font-family: 'Dosis', sans-serif;
+}
+ 
+body{
+  background-color: #f0ead6;
+  margin:0;
+}
+#tealStrip{
+  background-color: rgb(175, 238, 232);
+  margin: 0%;
+  width: 100%;
+}
+ 
+h1{
+  text-align: center;
+  font-size: 35px;
+}
+ 
+a:link, a:visited {
+  background-color:#DCDCDC;
+  color:black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+ 
+  
+a:hover, a:active {
+  background-color:rgb(175, 238, 232);
+}
+ 
+#welcomeimg{
+  width: 40%;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-right: 45px;
+}
+ 
+#welcometext{
+  font-size: 20px;
+  padding: 10px;
+  border: black solid ;
+  background-color: #DCDCDC;
+  border-radius: 15px;
+  width:55% ;
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+  
+}
+ 
+#row1{
+  width: 100%;
+  display: flex;
+}
+ 
+ 
+#traeyoungimg{
+  width: 35%;
+  margin-left: 25px;
+  float: left;
+}
+ 
+#traeyoungtext{
+  font-size: 18px;
+  padding: 10px;
+  border:black solid ;
+  background-color: #DCDCDC;
+  width: 55%;
+  margin-right: 25px;
+  margin-left: 500px;
+  
+  
+  
+}
+ 
+#travisscottimg{
+  margin-left:25px;
+  float: right;
+  width: 25%;
+  margin-right: 25px;
+}
+ 
+#travisscotttext{
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 18px;
+  padding: 20px;
+  border: black solid ;
+  background-color: #DCDCDC;
+  width: 65%;
+}
+ 
+#row2{
+  width: 100%;
+margin-top: 45px;
+margin-left: 2px;
+}
+ 
+#row3{
+  width: 100%;
+  margin-top: 350px;
+}

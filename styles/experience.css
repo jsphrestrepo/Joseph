@@ -1,0 +1,91 @@
+body{
+  font-family: 'Dosis', sans-serif;
+}
+ 
+body{
+  background-color: #f0ead6;
+  margin:0;
+}
+ 
+#tealStrip{
+  background-color: rgb(175, 238, 232);
+  margin: 0%;
+  width: 100%;
+}
+ 
+h1{
+  text-align: center;
+  font-size: 35px;
+}
+ 
+a:link, a:visited {
+    background-color: #dcdcdc;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    background-color: rgb(175, 238, 232);
+  }
+ 
+#row1{
+  width: 90%;
+  padding: 5px;
+  border: black solid ;
+  background-color:rgb(175, 238, 232);
+  margin: 40px;
+}
+ 
+  #image1{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  }
+ 
+  #image2{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  }
+ 
+  #photoshopimg{
+    margin:25px ;
+    vertical-align: top;
+  }
+ 
+  #projectmanagementimg{
+    margin:25px;
+    vertical-align:top;
+    
+  }
+ 
+  #img1text{
+    vertical-align: top;
+    margin: 25px;
+    font-size: 20px;
+  }
+ 
+  #img2text{
+    vertical-align: top;
+    margin: 25px;
+    font-size: 20px;
+  }
+ 
+  #row2{
+    vertical-align: top;
+    padding: 5px;
+    border: black solid ;
+    background-color: rgb(175, 238, 232);
+  }
+ 
+  #systemsimg{
+    margin: 25px;
+  }
+ 
+  #systemstext{
+    vertical-align: top;
+    font-size: 20px;
+  }
