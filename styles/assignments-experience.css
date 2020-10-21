@@ -1,23 +1,28 @@
+/*Font for assignments and experiece page*/
 body{
   font-family: 'Dosis', sans-serif;
 }
- 
+
+/*Background colour and margin for assignments and experience page*/
 body{
   background-color: #f0ead6; 
   margin:0;
 }
- 
+
+/*css for the nav bar*/
 #tealStrip{
   background-color: rgb(175, 238, 232);
   margin: 0%;
   width: 100%;
 }
- 
+
+/*This is css for title for the assignments and experience page*/
 h1{
   text-align: center;
   font-size: 35px;
 }
- 
+
+/*css for the navbar*/
 a:link, a:visited {
   background-color: #dcdcdc;
   color: black;
@@ -26,43 +31,52 @@ a:link, a:visited {
   text-decoration:none;
   display: inline-block;
 }
- 
+
+/*css for navbar*/
 a:hover, a:active {
   background-color:rgb(175, 238, 232);
 }
- 
+
+/*the "A" means that it is css specifically for the assignment page*/
+
+/*This is the css for the row that contains only an image at the top of assignment page*/
 #row1A{
   width: 90%;
   margin-top: 25px;
-  margin-left: 70px;
+  margin-left: 63px;
   margin-bottom: 25px;
 }
- 
+
+/*css for the row of the first two assignments on the assignments page*/
 #row2A{
   width: 100%;
 }
- 
+
+/*css for image and text for the first assignment*/
 #image1A{
   width: 45%;
   display: inline-block;
   vertical-align: top;
-  margin-left: 45px;
+  margin-left: 25px;
   padding: 5px;
   border: black solid ;
   background-color:#dcdcdc;
 }
- 
+
+/*css for image for the first assignment*/
 #projectimgA{
   margin:25px ;
   vertical-align: top;
 }
- 
+
+/*css for text for the first assignment*/
 #image1textA{
   vertical-align: top;
   margin: 25px;
   font-size: 20px;
 }
  
+/*css for image and text for the second assignment*/
 #image2A{
   width: 45%;
   display: inline-block;
@@ -72,30 +86,35 @@ a:hover, a:active {
   border: black solid ;
   background-color:#dcdcdc;
 }
- 
+
+/*css for the image for the second assignment*/
 #projectimg2A{
   margin:25px ;
   vertical-align: top;
 }
  
+/*css for the text for the second assignment*/
 #image2textA{
   vertical-align: top;
   margin: 25px;
   font-size: 20px;
 }
- 
+
+/*css for the row that contains information on thrid assignment*/
 #row3A{
 width: 100%;
 }
 
+/*css for the image for the third assignment*/
 #projectimg3A{
 margin-top: 45px;
-margin-left: 45px;
+margin-left: 38px;
 margin-bottom: 45px;
 width: 45%;
 float: left;
 }
- 
+
+/*css for the text for the third assignment*/
 #image3textA{
   float: right;
   padding: 5px;
@@ -103,10 +122,14 @@ float: left;
   background-color:#dcdcdc;
   width: 45%;
   margin-top: 45px;
-  margin-right: 15px;
+  margin-right: 25px;
   margin-left: 40px;
 }
 
+/*the "E" means that it is css specifically for the experience page*/
+
+/*css for the entire row that contains information on the "Tech That I'm Good At" 
+and for "Techs I Want To Learn For The Future" part of the experience page */
 #row1E{
   width: 90%;
   padding: 5px;
@@ -116,45 +139,53 @@ float: left;
   margin-left: 55px;
 }
    
+/*css for the image and text for the "Techs That I'm Good At" section specifically */
 #image1E{
   width: 45%;
   display: inline-block;
   vertical-align: top;
 }
-   
-#image2E{
-  width: 45%;
-  display: inline-block;
-  vertical-align: top;
-}
-   
+
+/*css for the image for the "Techs That I'm Good At" section */
 #photoshopimgE{
   margin:25px ;
   vertical-align: top;
 }
 
+/*source link for the photoshop image*/
 #pscaptionE{
   font-size: 10px;
 }
-   
-#projectmanagementimgE{
-  margin:25px;
-  vertical-align:top;
-}
-   
+
+/*css for the text for the "Techs That I'm Good At" section */   
 #img1textE{
   vertical-align: top;
   margin: 25px;
   font-size: 20px;
 }
    
+/*css for the image and text for the "Techs I Want To Learn For The Future" section specifcally */
+#image2E{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+   
+/*css for the image of the "Techs I Want To Learn For The Future" section */
+#projectmanagementimgE{
+  margin:25px;
+  vertical-align:top;
+}
+
+/*css for the text for the "Techs I Want To Learn For The Future" section*/
 #img2textE{
   vertical-align: top;
   margin: 25px;
   font-size: 20px;
   margin-top: 36px;
 }
-   
+ 
+/*css for the row that contains the image and text for "Why I Chose This Course" section*/
 #row2E{
   vertical-align: top;
   padding: 5px;
@@ -163,10 +194,12 @@ float: left;
   margin: 55px;
 }
    
+/*css for the image for the "Why I Chose This Course" section*/
 #systemsimgE{
   margin: 25px;
 }
-   
+  
+/*css for the text for the "Why I Chose This Course" section*/
 #systemstextE{
   vertical-align: top;
   font-size: 20px;

@@ -1,22 +1,28 @@
+/*font family for the entire index page*/
 body{
   font-family: 'Dosis', sans-serif;
 }
- 
+
+/*the background colour and margin for the entire index page*/
 body{
   background-color: #f0ead6;
   margin:0;
 }
+
+/*css for the top of the index page that contains the title and navbar(teal trip at top of page)*/
 #tealStrip{
   background-color: rgb(175, 238, 232);
   margin: 0%;
   width: 100%;
 }
  
+/*css for title of website*/
 h1{
   text-align: center;
   font-size: 35px;
 }
  
+/*css for the nav bar*/
 a:link, a:visited {
   background-color:#DCDCDC;
   color:black;
@@ -26,11 +32,18 @@ a:link, a:visited {
   display: inline-block;
 }
  
-  
+/*css for the nav bar*/  
 a:hover, a:active {
   background-color:rgb(175, 238, 232);
 }
+
+/*css for the row that contains the welcome image and text*/
+#row1{
+  width: 100%;
+  display: flex;
+}
  
+/*css for the welcome image*/
 #welcomeimg{
   width: 40%;
   margin-left: 25px;
@@ -38,6 +51,7 @@ a:hover, a:active {
   margin-right: 45px;
 }
  
+/*css for the welcome text*/
 #welcometext{
   font-size: 20px;
   padding: 10px;
@@ -49,23 +63,27 @@ a:hover, a:active {
   margin-right: 25px;
   margin-top: 25px;
 }
- 
-#row1{
+
+/*css for the row that contains the trae young image and text*/
+#row2{
   width: 100%;
-  display: flex;
+  margin-top: 45px;
+  margin-left: 2px;
 }
  
- 
+/*css for the trae young image*/
 #traeyoungimg{
   width: 38%;
   margin-left: 25px;
   float: left;
 }
 
+/*the source link to trae young image*/
 #traecaption{
   font-size: 10px;
 }
  
+/*css for the trae young text*/
 #traeyoungtext{
   font-size: 20px;
   padding: 10px;
@@ -75,7 +93,14 @@ a:hover, a:active {
   margin-right: 25px;
   margin-left: 550px;
 }
+
+/*css for the row that contains the travis scott image and text */
+#row3{
+  width: 100%;
+  margin-top: 375px;
+}
  
+/*css for the travis scott image*/
 #travisscottimg{
   margin-left:25px;
   float: right;
@@ -83,10 +108,12 @@ a:hover, a:active {
   margin-right: 25px;
 }
 
+/*the source link to the travis scott image*/
 #tscaption{
   font-size: 10px;
 }
  
+/*css for the travis scott text*/
 #travisscotttext{
   margin-right: 25px;
   margin-left: 25px;
@@ -97,13 +124,5 @@ a:hover, a:active {
   width: 65%;
 }
  
-#row2{
-  width: 100%;
-  margin-top: 45px;
-  margin-left: 2px;
-}
- 
-#row3{
-  width: 100%;
-  margin-top: 375px;
-}
+
+
