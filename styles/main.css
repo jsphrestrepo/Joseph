@@ -57,7 +57,7 @@ a:hover, a:active {
  
  
 #traeyoungimg{
-  width: 35%;
+  width: 38%;
   margin-left: 25px;
   float: left;
 }
@@ -71,9 +71,9 @@ a:hover, a:active {
   padding: 10px;
   border:black solid ;
   background-color: #DCDCDC;
-  width: 55%;
+  width: 53%;
   margin-right: 25px;
-  margin-left: 500px;
+  margin-left: 550px;
 }
  
 #travisscottimg{
@@ -99,8 +99,8 @@ a:hover, a:active {
  
 #row2{
   width: 100%;
-margin-top: 45px;
-margin-left: 2px;
+  margin-top: 45px;
+  margin-left: 2px;
 }
  
 #row3{

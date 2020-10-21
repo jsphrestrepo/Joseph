@@ -105,71 +105,70 @@ float: left;
   margin-top: 45px;
   margin-right: 15px;
   margin-left: 40px;
-  }
+}
 
-  #row1E{
-    width: 90%;
-    padding: 5px;
-    border: black solid ;
-    background-color:rgb(175, 238, 232);
-    margin: 40px;
-    margin-left: 55px;
-  }
+#row1E{
+  width: 90%;
+  padding: 5px;
+  border: black solid ;
+  background-color:rgb(175, 238, 232);
+  margin: 40px;
+  margin-left: 55px;
+}
    
-  #image1E{
-    width: 45%;
-    display: inline-block;
-    vertical-align: top;
-    }
+#image1E{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
    
-  #image2E{
-    width: 45%;
-    display: inline-block;
-    vertical-align: top;
-    }
+#image2E{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
    
-    #photoshopimgE{
-      margin:25px ;
-      vertical-align: top;
-    }
+#photoshopimgE{
+  margin:25px ;
+  vertical-align: top;
+}
 
-    #pscaptionE{
-      font-size: 10px;
-    }
+#pscaptionE{
+  font-size: 10px;
+}
    
-    #projectmanagementimgE{
-      margin:25px;
-      vertical-align:top;
-      
-    }
+#projectmanagementimgE{
+  margin:25px;
+  vertical-align:top;
+}
    
-    #img1textE{
-      vertical-align: top;
-      margin: 25px;
-      font-size: 20px;
-    }
+#img1textE{
+  vertical-align: top;
+  margin: 25px;
+  font-size: 20px;
+}
    
-    #img2textE{
-      vertical-align: top;
-      margin: 25px;
-      font-size: 20px;
-      margin-top: 36px;
-    }
+#img2textE{
+  vertical-align: top;
+  margin: 25px;
+  font-size: 20px;
+  margin-top: 36px;
+}
    
-    #row2E{
-      vertical-align: top;
-      padding: 5px;
-      border: black solid ;
-      background-color: rgb(175, 238, 232);
-      margin: 55px;
-    }
+#row2E{
+  vertical-align: top;
+  padding: 5px;
+  border: black solid ;
+  background-color: rgb(175, 238, 232);
+  margin: 55px;
+}
    
-    #systemsimgE{
-      margin: 25px;
-    }
+#systemsimgE{
+  margin: 25px;
+}
    
-    #systemstextE{
-      vertical-align: top;
-      font-size: 20px;
-    }
+#systemstextE{
+  vertical-align: top;
+  font-size: 20px;
+}
   
