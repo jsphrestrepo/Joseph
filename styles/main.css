@@ -61,6 +61,10 @@ a:hover, a:active {
   margin-left: 25px;
   float: left;
 }
+
+#traecaption{
+  font-size: 10px;
+}
  
 #traeyoungtext{
   font-size: 20px;
@@ -77,6 +81,10 @@ a:hover, a:active {
   float: right;
   width: 25%;
   margin-right: 25px;
+}
+
+#tscaption{
+  font-size: 10px;
 }
  
 #travisscotttext{

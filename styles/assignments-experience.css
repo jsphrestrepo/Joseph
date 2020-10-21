@@ -116,13 +116,13 @@ float: left;
     margin-left: 55px;
   }
    
-    #image1E{
+  #image1E{
     width: 45%;
     display: inline-block;
     vertical-align: top;
     }
    
-    #image2E{
+  #image2E{
     width: 45%;
     display: inline-block;
     vertical-align: top;
@@ -131,6 +131,10 @@ float: left;
     #photoshopimgE{
       margin:25px ;
       vertical-align: top;
+    }
+
+    #pscaptionE{
+      font-size: 10px;
     }
    
     #projectmanagementimgE{
@@ -149,6 +153,7 @@ float: left;
       vertical-align: top;
       margin: 25px;
       font-size: 20px;
+      margin-top: 36px;
     }
    
     #row2E{
