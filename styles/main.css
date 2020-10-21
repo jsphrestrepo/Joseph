@@ -9,6 +9,22 @@ body{
   margin:0;
 }
 
+/*css for button*/
+.button {
+  background-color:#DCDCDC; /* grey */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 30px; 
+  float: right;
+  font-family: 'Dosis', sans-serif;
+}
+
 /*css for the top of the index page that contains the title and navbar(teal trip at top of page)*/
 #tealStrip{
   background-color: rgb(175, 238, 232);
