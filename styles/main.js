@@ -4,7 +4,7 @@ function greet(){
   
 function getName(){
     let name = prompt("What's your name?");
-    alert("Nice to meet you deez, " + name);
+    alert("Nice to meet you, " + name);
 }
 
 function askHowTheyAre() {
