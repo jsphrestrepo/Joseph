@@ -16,6 +16,22 @@ body{
   width: 100%;
 }
 
+/*css for button assignments page*/
+.button {
+  background-color:#DCDCDC; /* grey */
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: 'Dosis', sans-serif; ;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 30px; 
+  font-family: 'Dosis', sans-serif;
+}
+
 /*This is css for title for the assignments and experience page*/
 h1{
   text-align: center;
@@ -39,12 +55,26 @@ a:hover, a:active {
 
 /*the "A" means that it is css specifically for the assignment page*/
 
-/*This is the css for the row that contains only an image at the top of assignment page*/
+
+/*This is the css for the row that contains the assignment with buttons (JS) and a picture of JS code*/
 #row1A{
   width: 90%;
   margin-top: 25px;
   margin-left: 63px;
   margin-bottom: 25px;
+}
+
+/*This the image of the JS coding for the buttons*/
+#rowimg1A{
+  width: 90%;
+  margin-top: 25px;
+  margin-left: 63px;
+  margin-bottom: 25px;
+}
+
+/*This is the css for the group of buttons on the top of the assignment page.*/
+#buttons{
+  margin-left: 180px;
 }
 
 /*css for the row of the first two assignments on the assignments page*/
