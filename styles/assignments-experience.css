@@ -26,11 +26,54 @@ body{
   text-decoration: none;
   font-size: 23px;
   font-family: 'Dosis', sans-serif; ;
-  margin: 4px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   cursor: pointer;
   border-radius: 30px; 
   font-family: 'Dosis', sans-serif;
 }
+
+#buttonrow{
+  width: 100%;
+}
+
+#buttons{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+}
+
+#buttons2{
+margin-left: 100px;
+width: 45%;
+display: inline-block;
+vertical-align: top;
+margin-top: 5px;
+}
+
+#encrypted{
+  margin-left: 440px;
+}
+
+#decrypted{
+  margin-left: 440px;
+}
+
+#centuryFromYear{
+  margin-left: 180px;
+}
+
+#thirdAngle{
+  margin-left: 320px;
+}
+
+#tenFour{
+  margin-left: 455px;
+  text-align: right;
+}
+
+
 
 /*This is css for title for the assignments and experience page*/
 h1{
@@ -70,11 +113,6 @@ a:hover, a:active {
   margin-top: 25px;
   margin-left: 63px;
   margin-bottom: 25px;
-}
-
-/*This is the css for the group of buttons on the top of the assignment page.*/
-#buttons{
-  margin-left: 180px;
 }
 
 /*css for the row of the first two assignments on the assignments page*/
