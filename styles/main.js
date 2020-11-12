@@ -60,7 +60,7 @@ alert ("the order from greatest to least is " + array);
     
 }
 
-//JS for the funtion 5 button//
+//JS for the forSumThrees button//
 function forSumThrees() {
     let sum = 0;
     for (let i = 0; i < 1000; i++) {
@@ -72,26 +72,7 @@ function forSumThrees() {
     
 }
 
-//JS for the funtion 6 button//
-function tenFour() {
-    
-    for (let i = 0; i < 100; i++);
-
-   
-}
-
-//JS for the funtion 7 button//
-function centuryFromYear(year) {
-        let totalSum = 0;
-        while (year > 0){
-          year = year - 100;
-          totalSum += 1;
-        }
-        return totalSum;
-      
-}
-
-//JS for the funtion 8 button//
+//JS for the thirdAngle button//
 function thirdAngle() {
     alert ("Welcome to the folloing activity! You must put in 2 angles of a triangle and the function will return the 3rd angle missing. Please remember to type in two angles that add up to less than 180 or else the function wont work. Enjoy!" );
     var a = parseInt(prompt("Enter an angle of a triangle"));
@@ -109,7 +90,7 @@ function thirdAngle() {
 
 }
 
-//JS for the funtion 9 button//
+//JS for the encrypt button//
 function encrypt() {
     let plaintext = prompt ("Enter your plain message:"); // Recieves the plain message
     let ciphertext = ""; //Creates the ciphertext variable
@@ -123,7 +104,7 @@ function encrypt() {
     alert("Copy this encrypted message and paste on decrypt button! " + ciphertext) //Alert to copy the encrypted message
 }
 
-//JS for the funtion 10 button//
+//JS for the decrypt button//
 function decrypt() { 
     let ciphertext = prompt ("Enter your encrypted message:"); //Recieves the encrypted message
     let plaintext = ""; //Creates the plain text variable
@@ -131,12 +112,21 @@ function decrypt() {
     for(let i = 0; i < ciphertext.length; i = i + 1) { //Loop to make changes to encypted message
         firstletter = ((ciphertext[i]).slice(-5, -4)).toLowerCase(); //This takes the first letter of each plain message by extracting it with slice method and making it lowercase
         lastletter = ((ciphertext[i]).slice(-3, -2)).toLowerCase(); //This takes the last letter of each plain message by extracting it with slice method and making it lowercase
-        plaintext += firstletter + (ciphertext[i]).slice(2,-7) + lastletter + " "; //This makes the plain message by adding the modified firstletter var. Then this takes the ciphered text and slices out the proper parts of the plain message. Lastly it adds the modified lastletter var to decrypt the message.
+        plaintext += firstletter + (ciphertext[i]).slice(2,-7) + lastletter + " "; //This makes the plain message by adding the modified firstletter var. Then this takes the encrypted text and slices out the plain parts of the plain message. Lastly it adds the modified lastletter var to decrypt the message.
     }
     document.getElementById("decrypted").innerHTML = plaintext; // This displays the decryped message (plain message) on the button
     
     
 }
+
+
+   
+
+        
+
+        
+        
+
 
 
 

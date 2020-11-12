@@ -115,6 +115,50 @@ a:hover, a:active {
   margin-bottom: 25px;
 }
 
+/*This is css for the row of all the buttons*/
+#buttonrow{
+  width: 100%;
+}
+
+/*This is css for the left row of buttons*/
+#buttons{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+}
+
+/*This is css for the right row of buttons*/
+#buttons2{
+margin-left: 100px;
+width: 45%;
+display: inline-block;
+vertical-align: top;
+margin-top: 5px;
+}
+
+/*This is css for the encrypted button*/
+#encrypted{
+  margin-left: 440px;
+}
+
+/*This is css for the decryted button*/
+#decrypted{
+  margin-left: 440px;
+}
+
+
+/*This is css for the finding the third angle button*/
+#thirdAngle{
+  margin-left: 320px;
+}
+
+/*This is css for the forSumThrees button*/
+#forSumThrees{
+  margin-left: 205px;
+}
+
+
 /*css for the row of the first two assignments on the assignments page*/
 #row2A{
   width: 100%;
